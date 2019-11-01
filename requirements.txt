@@ -1,0 +1,3 @@
+requests
+sqlite3
+aiml
