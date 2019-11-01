@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+ <category>
+ 	<pattern> WHO TEACHES ARTIFICIAL INTELLIGENCE</pattern>
+ 	<template>THIS IS TAUGHT BY DR. CHRISTOPHER newline
+                <srai> CHRISTOPHER </srai> 
+        </template>
+ </category>
+
+<category>
+     <pattern> * CHRISTOPHER * </pattern>
+     <template>
+           <srai> CHRISTOPHER </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  CHRISTOPHER * </pattern>
+     <template>
+           <srai> CHRISTOPHER </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> TELL ME ABOUT DR. CHRISTOPHER </pattern>
+ 	<template><srai> CHRISTOPHER </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF DR CHRISTOPHER </pattern>
+ 	<template><srai> CHRISTOPHERPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT DR CHRISTOPHER </pattern>
+ 	<template>
+     <srai> CHRISTOPHER </srai> newline 
+     <srai> CHRISTOPHERRESEARCH </srai> newline 
+     <srai> CHRISTOPHERPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES DR CHRISTOPHER WORK ON </pattern>
+ 	<template>He primarily works in Data mining and swarm inteligence. His projects are: newline <srai> CHRISTOPHERRESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN DATA MINING </pattern>
+ 	<template>DR. CHRISTOPHER is doing research in data mining. his projects are : newline<srai> CHRISTOPHERRESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  CHRISTOPHER  </pattern>
+     <template>
+            Dr. Christopher is currently an Assistant Professor in the Department of Computer Science and Information Systems, BITS-Pilani (Hyderabad Campus), where he teaches graduate and undergraduate courses in computer science and engineering. He holds M.E. and Ph.D. degrees in Computer Science and Engineering from Anna University, received in 2011 and 2017 respectively. He also holds an MBA degree with an emphasis on Knowledge management systems in Food and beverage Industries. newline
+            He started his academic career at VIT University in 2011 and then pursued full time research from 2012 onwards. He moved to National Institute of Technology-Warangal in 2016, where he served as an Adhoc Faculty for more than a year. newline
+            The main contribution of Dr Christopher's research work is focused on assisting medical centers with strategic knowledge management tasks and clinical decision support, in areas related to allergy diagnosis. It invloves application of computer methods and programs for medical informatics. newline
+            link to his profile is this : http://universe.bits-pilani.ac.in/hyderabad/jabezjchristopher/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  CHRISTOPHERRESEARCH </pattern>
+     <template>
+            Dr. Christopher's doctoral thesis presents a bio-inspired design of an optimization algorithm that can be used for enhancing Rule-based Classifiers. Moreover it presents applications of computing methods and data mining approaches in Medical Diagnosis. newline
+            His research interests span the areas of Data Mining, Machine Learning and Swarm Intelligence Algorithms. He also works on benchmarking and evaluation of optimization algorithms. newline
+            newline link to his complete research interest page : http://universe.bits-pilani.ac.in/hyderabad/jabezjchristopher/ResearchInterest
+    </template>
+</category>
+
+<category>
+     <pattern>  CHRISTOPHERPAPERS </pattern>
+     <template>
+            Dr Christopher's recent publications are : newline
+            1) A (2016) Knowledge-Based Systems and Interestingness Measures: An Analysis with Clinical Datasets, Journal of Computing and Information Technology newline
+            2)  A Swarm Optimization Approach for Clinical Knowledge Mining, Computer Methods and Programs in Biomedicine newline
+            for the complete list refer this link : http://universe.bits-pilani.ac.in/hyderabad/jabezjchristopher/Publications
+    </template>
+</category>
+
+</aiml>

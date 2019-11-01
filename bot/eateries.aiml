@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>I AM HUNGRY</pattern>
+<think><set name="topic">HUNGRY</set></think>
+<template>Would you like me to reccomend some eateries?</template>
+</category>
+
+<category><pattern>I AM HUNGRY _ </pattern>
+<think><set name="topic">HUNGRY</set></think>
+<template>Would you like me to reccomend some eateries?</template>
+</category>
+
+<category><pattern> _ PLACES TO EAT _ </pattern>
+<think><set name="topic">HUNGRY</set></think>
+<template>Would you like me to reccomend some eateries?</template>
+</category>
+
+<category><pattern> _ PLACES TO EAT  </pattern>
+<think><set name="topic">HUNGRY</set></think>
+<template>Would you like me to reccomend some eateries?</template>
+</category>
+
+<category><pattern> PLACES TO EAT  </pattern>
+<think><set name="topic">HUNGRY</set></think>
+<template>Would you like me to reccomend some eateries?</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>WOULD YOU LIKE ME TO RECCOMEND SOME EATERIES</that>
+		<template>
+			<think> <set name="topic">  </set> </think>
+			<srai>EATERIES</srai>
+		</template>	
+	</category>
+
+<category><pattern>NO</pattern>
+<that>WOULD YOU LIKE ME TO RECCOMEND SOME EATERIES</that>
+<template>Were you not hungry?</template>
+</category>
+
+
+<category>
+     <pattern>  EATERIES  </pattern>
+     <template>
+            These are the eateries you can find in BITS Hyderabad newlineC3 newline  SOUTH INDIAN newline  NORTH INDIAN newline  SANDWICHES newline  CHAAT newline  PASTRIES SHAKES AND ICE-CREAM newlineQuality Food at reasonable rates here newline newlineYUMPYS newline  NOODLES newline  SANDWICHES newline  FRIES  and other such things
+           newlinePrices are okayish but the food is a bit unhealthy I must say newline newline BITSNBYTES newline  PIZZA newline  PASTA newline  DONUTS newline A bit expensive and has been shut downnewline newline AMUL newline  ICE-CREAM newline  SOFT-DRINKS newline  MILK 
+    </template>
+</category>
+
+
+<category>
+     <pattern> * EATERIES * </pattern>
+     <template>
+           <srai> EATERIES </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  EATERIES * </pattern>
+     <template>
+           <srai> EATERIES </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> RECOMMEND ME SOME EATERIES </pattern>
+ 	<template><srai> EATERIES </srai> </template>
+ </category>
+
+<category>
+	<pattern> CAN YOU RECOMMEND ME SOME EATERIES</pattern>pattern>
+	<template><srai>RECOMMEND ME SOME EATERIES</srai></template>
+</category>
+ 
+<category>
+	<pattern> I AM HUNGRY.CAN YOU * ME * FOOD JOINTS </pattern>
+	<template><srai> EATERIES </srai></template>	
+</category> 
+
+
+<category>
+ 	<pattern> WHAT ARE FOOD DELIVERY OPTIONS TO CAMPUS </pattern>
+ 	<template> <srai> FOODDELIVERY </srai>
+      </template>
+ </category>
+
+ <category>
+ 	<pattern> FOOD DELIVERY OPTIONS </pattern>
+ 	<template> <srai> FOODDELIVERY </srai>
+      </template>
+ </category>
+
+ <category>
+ 	<pattern> FOOD DELIVERY </pattern>
+ 	<template> <srai> FOODDELIVERY </srai>
+      </template>
+ </category>
+
+<category>
+     <pattern>  FOODDELIVERY  </pattern>
+     <template>
+            currently there are three options to delivery to campus. they are : newline
+    1) hydfoodexpress : Adecent delivery option which delivers from many chain of restraunts like paradise, bawarchi etr. His website for ordering food is : http://hydfoodexpress.com/ newline
+    2) Elephant restraunt : Is fairly near to campus but has fixed delivery time. But this option is fairly expensive. You can check their menu here : https://www.zomato.com/hyderabad/elephant-restaurant-shamirpet/menu#tabtop newline
+        for Delivery call at this number : 9876544656 newline
+    3) viceroy family dhaba : Closest and the cheapest option available. But menu is very limited . you can visit this page for menu : https://www.zomato.com/hyderabad/viceroy-family-dhaba-shamirpet/menu newline
+       For delivery call this number : 6547986524 newline
+    </template>
+</category>
+
+</aiml>

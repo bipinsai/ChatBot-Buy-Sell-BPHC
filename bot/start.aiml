@@ -1,0 +1,95 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- std-startup.xml -->
+
+    <!-- Category is an atomic AIML unit -->
+    <category>
+
+        <!-- Pattern to match in user input -->
+        <!-- If user enters "LOAD AIML B" -->
+        <pattern>LEARN AI</pattern>
+
+        <!-- Template is the response to the pattern -->
+        <!-- This learn an aiml file -->
+        <template>
+            <learn>bot/eateries.aiml</learn>
+            <learn>bot/reduction.names.aiml</learn>
+            <learn>bot/reductions-update.aiml</learn>
+            <learn>bot/mp0.aiml</learn>
+            <learn>bot/mp1.aiml</learn>
+            <learn>bot/mp2.aiml</learn>
+            <learn>bot/mp3.aiml</learn>
+            <learn>bot/mp4.aiml</learn>
+            <learn>bot/mp5.aiml</learn>
+            <learn>bot/mp6.aiml</learn>
+            <learn>bot/reduction0.safe.aiml</learn>
+            <learn>bot/reduction1.safe.aiml</learn>
+            <learn>bot/reduction2.safe.aiml</learn>
+            <learn>bot/reduction3.safe.aiml</learn>
+            <learn>bot/reduction4.safe.aiml</learn>
+            <learn>bot/ai.aiml</learn>
+            <learn>bot/alice.aiml</learn>
+            <learn>bot_profile.aiml</learn>
+            <learn>bot/astrology.aiml</learn>
+            <learn>bot/atomic.aiml</learn>
+            <learn>bot/badanswer.aiml</learn>
+            <learn>bot/biography.aiml</learn>
+            <learn>bot/bot.aiml</learn>
+            <learn>bot/bot_profile.aiml</learn>
+            <learn>bot/client.aiml</learn>
+            <learn>bot/client_profile.aiml</learn>
+            <learn>bot/computers.aiml</learn>
+            <learn>bot/continuation.aiml</learn>
+            <learn>bot/date.aiml</learn>
+            <learn>bot/default.aiml</learn>
+            <learn>bot/drugs.aiml</learn>
+            <learn>bot/emotion.aiml</learn>
+            <learn>bot/food.aiml</learn>
+            <learn>bot/geography.aiml</learn>
+            <learn>bot/gossip.aiml</learn>
+            <learn>bot/history.aiml</learn>
+            <learn>bot/humor.aiml</learn>
+            <learn>bot/imponderables.aiml</learn>
+            <learn>bot/inquiry.aiml</learn>
+            <learn>bot/interjection.aiml</learn>
+            <learn>bot/iu.aiml</learn>
+            <learn>bot/junktest.aiml</learn>
+            <learn>bot/knowledge.aiml</learn>
+            <learn>bot/literarure.aiml</learn>
+            <learn>bot/loebner10.aiml</learn>
+            <learn>bot/money.aiml</learn>
+            <learn>bot/movies.aiml</learn>
+            <learn>bot/music.aiml</learn>
+            <learn>bot/my.aiml</learn>
+            <learn>bot/numbers.aiml</learn>
+            <learn>bot/personality.aiml</learn>
+            <learn>bot/phone.aiml</learn>
+            <learn>bot/pickup.aiml</learn>
+            <learn>bot/politics.aiml</learn>
+            <learn>bot/primeminister.aiml</learn>
+            <learn>bot/primitive-math.aiml</learn>
+            <learn>bot/psychology.aiml</learn>
+            <learn>bot/religion.aiml</learn>
+            <learn>bot/salutations.aiml</learn>
+            <learn>bot/science.aiml</learn>
+            <learn>bot/sex.aiml</learn>
+            <learn>bot/faculty1.aiml</learn>
+            <learn>bot/faculty2.aiml</learn>
+            <learn>bot/faculty3.aiml</learn>
+            <learn>bot/faculty4.aiml</learn>
+            <learn>bot/sports.aiml</learn>
+            <learn>bot/stack.aiml</learn>
+            <learn>bot/that.aiml</learn>
+            <learn>bot/update1.aiml</learn>
+            <learn>bot/xfind.aiml</learn>
+            <learn>my.aiml</learn>
+            <learn>bot/wloc.aiml</learn>
+            <learn>bot/update_mccormick.aiml</learn>
+
+            <!-- You can add more aiml files here -->
+            <!--<learn>more_aiml.aiml</learn>-->
+        </template>
+        
+    </category>
+  
+
+</aiml>

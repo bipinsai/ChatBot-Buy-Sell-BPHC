@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+        <pattern>  WEATHER </pattern>
+     <template>
+           API WEATHER 
+    </template>
+    </category>
+
+    <category>
+        <pattern> * WEATHER </pattern>
+     <template>
+           API WEATHER 
+    </template>
+    </category>
+    
+     <category>
+        <pattern> * WEATHER * </pattern>
+     <template>
+           API WEATHER 
+    </template>
+    </category>
+
+     <category>
+        <pattern>  WEATHER * </pattern>
+     <template>
+           API WEATHER 
+    </template>
+    </category>
+
+    <category><pattern>WHAT IS MY LOCATION</pattern>
+   <template>LOCATION API</template>
+    </category>
+    <category><pattern>LOCATION</pattern>
+   <template>LOCATION API</template>
+    </category>
+    <category><pattern> CURRENT LOCATION</pattern>
+   <template>LOCATION API</template>
+    </category>
+     <category><pattern>TELL ME MY LOCATION</pattern>
+   <template>LOCATION API</template>
+    </category>
+    <category><pattern>TELL ME MY LOCATION</pattern>
+   <template>LOCATION API</template>
+    </category>
+</aiml>

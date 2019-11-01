@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+ <category>
+ 	<pattern> WHO TEACHES COMPUTATIONAL GEOMETRY</pattern>
+ 	<template>THIS IS TAUGHT BY PROF. TRAYMURTHY newline
+                <srai> TRAY </srai> 
+        </template>
+ </category>
+
+ <category>
+    <pattern> WHO TEACHES COMPUTER GRAPHICS</pattern>
+    <template>THIS IS TAUGHT BY PROF. TRAYMURTHY newline
+                <srai> TRAY </srai> 
+        </template>
+ </category>
+
+<category>
+     <pattern> * TRAY * </pattern>
+     <template>
+           <srai> TRAY </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  TRAY * </pattern>
+     <template>
+           <srai> TRAY </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> TELL ME ABOUT PROFESSOR RAY </pattern>
+ 	<template><srai> TRAY </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> WHO IS HOD OF CS DEPARTMENT </pattern>
+ 	<template>Professor Tathagat ray is head of CS department. his details are : newline<srai> TRAY </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF PROF RAY </pattern>
+ 	<template><srai> TRAYPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT PROF TRAY</pattern>
+ 	<template>
+     <srai> TRAY </srai> newline 
+     <srai> TRAYRESEARCH </srai> newline 
+     <srai> TRAYPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES PROF TRAY WORK ON </pattern>
+ 	<template>He primarily works on computational geometry, computer graphics and their applications. His interests are: newline<srai> TRAYRESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN COMPUTATIONAL GEOMETRY  </pattern>
+ 	<template>Professor RAY is doing research in COMPUTATIONAL GEOMETRY. his intrests are are : newline<srai> TRAYRESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  TRAY  </pattern>
+     <template>
+            Education Details newline
+            1) B.Sc. in Mathematics Honours with first class, Jadavpur University, 1997. newline
+            2) M.Sc. in Applied Statistics and Informatics, Indian Institute of Technology,Bombay, 1999 newline
+            3) Ph.D. in Computer Science, The Ohio State University, Columbus, Ohio, USA. 2006. newline
+            for more details visit : http://universe.bits-pilani.ac.in/hyderabad/tathagatr/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  TRAYRESEARCH </pattern>
+     <template>
+            Current Research Goals: newline
+            The focus area of my research work is mesh generation which spans variety of problem domains starting from CAD Model meshing to fluid flow simulation. 
+            In particular Delaunay based methods for mesh generation are to be deeply studied, along with their scalability issues. 
+            I would like to use the meshes in actual simulation process and analyse the quality of result. 
+            The meshes can be of surfaces as well as volumes enclosed by a model. 
+            The topological correctness along with a good geometric approximation of the output mesh of the input model is to be ensured. newline
+            For more details about his research areas visit : http://universe.bits-pilani.ac.in/hyderabad/tathagatr/ResearchInterest
+    </template>
+</category>
+
+<category>
+     <pattern>  TRAYPAPERS </pattern>
+     <template>
+            his recent publications are : newline
+            1)MS Kinect a potential gait analysis system: Clothing effect on the gait kinematics" Poster presentation at XXVI Congress of the International society of Biomechanics, 23-27th July 2017, Brisbane, Australia. newline
+            2) Teaching Computer Programming using MOOCs in multiple campuses: Challenges and Solutions newline
+            for complete list refer to this link : http://universe.bits-pilani.ac.in/hyderabad/tathagatr/Publications
+    </template>
+</category>
+
+</aiml>

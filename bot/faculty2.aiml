@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+ <category>
+ 	<pattern> WHO TEACHES DSA</pattern>
+ 	<template>THIS IS TAUGHT BY PROF. BHANUMURTHY newline
+                <srai> BHANU </srai> 
+        </template>
+ </category>
+
+ <category>
+    <pattern> WHO TEACHES MACHINE LEARNING</pattern>
+    <template>THIS IS TAUGHT BY PROF. BHANUMURTHY newline
+                <srai> BHANU </srai> 
+        </template>
+ </category>
+
+<category>
+     <pattern> * BHANU * </pattern>
+     <template>
+           <srai> BHANU </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  BHANU * </pattern>
+     <template>
+           <srai> BHANU </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> TELL ME ABOUT PROFESSOR BHANUMURTHY </pattern>
+ 	<template><srai> BHANU </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF PROF BHANUMURTHY </pattern>
+ 	<template><srai> BHANUPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT PROF BHANUMURTHY </pattern>
+ 	<template>
+     <srai> BHANU </srai> newline 
+     <srai> BHANURESEARCH </srai> newline 
+     <srai> BHANUPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES PROF BHANUMURTHY WORK ON </pattern>
+ 	<template>He primarily works in machine learning, deep learning and its applications. His interests are: <srai> BHANURESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN MACHINE LEARNING </pattern>
+ 	<template>Professor bhanumurthy is doing research in ml. his intrests are are : newline<srai> BHANURESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  BHANU  </pattern>
+     <template>
+            Education Details newline
+            1) M.Tech. (Computer Applications) from Indian Institute of Technology Delhi (IIT Delhi), 1994 newline
+            2) Ph.D. (Thesis Title - Polytope of degree sequences of threshold hypergraphs) from Indian Institute of Technology Bombay (IIT Bombay), 2000 newline
+            University Ranker and Gold Medalist at graduate and under-graduate studies newline
+            newline Experience newline
+            Worked in IT Industry from Aug 1999 till Jun 2010 as Solution Architect / Enterprise Architect newline
+            for more details visit : http://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  BHANURESEARCH </pattern>
+     <template>
+            Machine Learning newline
+            Software Anlytics newline
+            Software Engineering newline
+    </template>
+</category>
+
+<category>
+     <pattern>  BHANUPAPERS </pattern>
+     <template>
+            his recent publications are : newline
+            1) C K Shriram, K Muthukumaran, Bhanu Murthy N L, Empirical Study on the Distribution of Bugs in Software Systems, newline
+            2) Multi Objective Cross Version Defect     Prediction. Soft computing (In Press), Springer International Publishing newline
+            for complete list refer to this link : http://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Publications
+    </template>
+</category>
+
+</aiml>

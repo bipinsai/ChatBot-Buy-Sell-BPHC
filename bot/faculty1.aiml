@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+ <category>
+ 	<pattern> WHO TEACHES OPERATING SYSTEMS</pattern>
+ 	<template>THIS IS TAUGHT BY PROF. HOTA newline
+                <srai> HOTA </srai> 
+        </template>
+ </category>
+
+<category>
+     <pattern> * HOTA * </pattern>
+     <template>
+           <srai> HOTA </srai> 
+    </template>
+</category>
+
+<category>
+     <pattern>  HOTA * </pattern>
+     <template>
+           <srai> HOTA </srai> 
+    </template>
+</category>
+
+
+
+ <category>
+ 	<pattern> TELL ME ABOUT PROFESSOR HOTA </pattern>
+ 	<template><srai> HOTA </srai> </template>
+ </category>
+
+<category>
+ 	<pattern> TELL ME ABOUT PROF HOTA </pattern>
+ 	<template><srai> HOTA </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHAT ARE RECENT PUBLICATIONS OF PROF HOTA </pattern>
+ 	<template><srai> HOTAPAPERS </srai> </template>
+ </category>
+
+ <category>
+ 	<pattern> TELL ME EVERYTHING ABOUT PROF HOTA </pattern>
+ 	<template>
+     <srai> HOTA </srai> newline 
+     <srai> HOTARESEARCH </srai> newline 
+     <srai> HOTAPAPERS  </srai>
+     </template>
+ </category>
+
+ <category>
+ 	<pattern> WHAT DOES PROF HOTA WORK ON </pattern>
+ 	<template>He primarily works in IOT security. His projects are: <srai> HOTARESEARCH </srai> </template>
+ </category>
+
+  <category>
+ 	<pattern> WHO IS DOING RESEARCH IN IOT </pattern>
+ 	<template>Professor hota is doing research in iot. his projects are : newline<srai> HOTARESEARCH </srai> </template>
+ </category>
+
+
+<category>
+     <pattern>  HOTA  </pattern>
+     <template>
+            Dr. Chittaranjan Hota, Professor of Computer Science and Engineering, completed his Ph.D from BITS, Pilani and has over twenty-eight years of academic and research experience in Indian and universities abroad. 
+            His Ph.D work was on Quality of Service (QoS) assurances in IP-Virtual Private Networks, part of which was carried out at University of New South Wales, Sydney, Australia. 
+            Prior to PhD, he had earned Bachelors of Engineering, and Masters of Engineering in Computer science.
+            newline link to his profile is this : http://universe.bits-pilani.ac.in/hyderabad/chittaranjanhota/Profile
+    </template>
+</category>
+
+<category>
+     <pattern>  HOTARESEARCH </pattern>
+     <template>
+            (IoT Security) Title: Lightweight Code Self-verification for Internet of Things (IoT) Devices, funded by DeitY-NWO under Indo-Dutch Joint Research programme for ICT, July 2015 (2015-2019), Project outlay: 380, 000 Euros.
+            Principal Investigators: Prof. Herbert Bos (Vrije University, Amsterdam), Prof. Chittaranjan Hota (BITS-Hyderabad), Dr. Cristiano Giuffrida (VU, Amsterdam)
+            newline link to his complete research page : http://universe.bits-pilani.ac.in/hyderabad/chittaranjanhota/SponsoredProjects
+    </template>
+</category>
+
+<category>
+     <pattern>  HOTAPAPERS </pattern>
+     <template>
+            His recent publications are : newline 1) Social media and Machine computation for Task Assignment in Crowd-sourcing platform,
+            newline 2) STEEP: speed and time-based energy efficient neighbor discovery in opportunistic networks newline
+            for the complete list refer this link : http://universe.bits-pilani.ac.in/hyderabad/chittaranjanhota/Publications
+    </template>
+</category>
+
+</aiml>
