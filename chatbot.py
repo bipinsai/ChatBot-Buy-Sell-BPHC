@@ -87,6 +87,33 @@ while True:
                 n,num,p,co = row
                 print("Name : ",n ,"\nContact  : ",num,"\nPrice :",p,"\nCondition :",co)
         continue
+    elif s=="Show":
+        print("Enter your name : " )
+        name1 = input()
+        cur = conn.cursor()
+        cur.execute("SELECT Product_name from user_details WHERE status = 'Sell' AND user_name =?",(name1,) )
+        conn.commit()
+        rows = cur.fetchall()
+        if len(rows) == 0:
+             print("Currently you have no sell requests")
+             
+        else: 
+            print ( "The  products which you are selling  are : " )
+            for row in rows:
+                n= row
+                print("Product Name : ",n[0],"\n" )
+        cur.execute("SELECT Product_name from user_details WHERE status = 'Buy' AND user_name =?",(name1,) )
+        conn.commit()
+        rows = cur.fetchall()
+        if len(rows) == 0:
+             print("Currently you have no buy requests")
+             
+        else: 
+            print ( "The  products which you want to buy are : " )
+            for row in rows:
+                n= row
+                print("Product Name : ",n[0] )
+        continue
 
     s=s.split('newline')
     ch=False
