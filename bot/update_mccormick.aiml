@@ -21,6 +21,60 @@
 </category>
  -->
 <category>
+<pattern>SHOW *</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>WHAT ARE MY CURRENT ORDERS</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>MY ORDERS</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>ORDERS *</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>MY REQUESTS</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>MY CURRENT REQUESTS</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>CURRENT ORDERS</pattern>
+
+<template>Show</template>
+</category>
+
+<category>
+<pattern>I WANT TO BUY</pattern>
+
+<template>Buy</template>
+</category>
+
+<category>
+<pattern>I WANT TO SELL</pattern>
+
+<template>Sell</template>
+</category>
+
+<category>
 <pattern>IS * FOR SALE *</pattern>
 
 <template>Buy</template>
