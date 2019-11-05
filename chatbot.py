@@ -2,7 +2,7 @@ import requests
 import json
 import aiml
 from sqlite3 import connect
-#import webbrowser
+import webbrowser
 
 
 conn = connect("conv.db",timeout=10)
@@ -27,11 +27,11 @@ kernel.respond("learn ai")
 
 while True:
     u=input(">>>")
-#	if str(u)[:6]=="google" or str(u)[:6]=="Google":
-#		url = "https://www.google.com.tr/search?q={}".format(str(u)[6:]);    
-#		webbrowser.open(url,2)
-#		insert(str(u),"")
-#		continue;
+    if str(u)[:6]=="google" or str(u)[:6]=="Google":
+        url = "https://www.google.com.tr/search?q={}".format(str(u)[6:]);    
+        webbrowser.open(url,2)
+        insert(str(u),"")
+        continue;
     s=kernel.respond(u)
 #    print(s)
 #    print(s)
@@ -42,6 +42,8 @@ while True:
         numb = input()
         print("Enter the product name : ")
         pname = input()
+        pname = pname.lower()
+        pname = pname.replace(" ","")
         print("Enter the Selling price :" )
         p = input()
         print( "Condition of the product " )
@@ -68,6 +70,8 @@ while True:
         numb = input()
         print("Enter the product name : ")
         pname = input()
+        pname = pname.lower()
+        pname = pname.replace(" ","")
         conn.execute("INSERT INTO user_details (user_name,phone_number,Product_name,status,price,condition) VALUES (?,?,?,?,?,?) ",(name1,numb,pname,"Buy","",""))
         conn.commit()
         cur = conn.cursor()
@@ -76,7 +80,7 @@ while True:
         rows = cur.fetchall()
         if len(rows) == 0:
              print("Currently nobody is selling the product ..")
-             print("Your reequest has been submitted")
+             print("Your request has been submitted")
         else: 
             print ( "The details of the sellers are : " )
             for row in rows:
